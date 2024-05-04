@@ -1,0 +1,13 @@
+Fonts used in this design:
+
+Font: Oblik
+Author: Tour de Force
+Url: http://www.fontsquirrel.com/fonts/oblik
+
+Font: Code Pro
+Author: Fontfabric
+Url: https://www.fontsquirrel.com/fonts/code-pro
+
+Font: Poppins
+Author: Indian Type Foundry
+Url: https://www.fontsquirrel.com/fonts/poppins

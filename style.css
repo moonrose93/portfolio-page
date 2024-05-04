@@ -1,0 +1,1354 @@
+body{
+    margin: 0;
+    padding: 0;
+  overflow-x: hidden;
+  background: rgba(8, 8, 32, 255);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  cursor: url("1-cursor/cursor_page_01.png");
+ 
+}
+
+.header img{
+    width: 100px;
+}
+
+
+
+
+.header{
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    background-color: rgba(8,8,32,255);
+   padding: 20px 0px;
+    height: 80px;
+    padding-right:180px;
+    padding-left: 120px;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+
+
+.cool{
+    color: white;
+}
+
+.header-inside{
+    display: flex;
+    width: 80%;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    color: white;
+}
+
+.content-mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner{
+  
+  background-image: url("hex-backgrounds-networking.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  
+  width: 100%;
+
+}
+
+.first-block-projects{
+    display: flex;
+    width: 1600px;
+    justify-content: space-between;
+}
+
+
+.second-block-projects{
+    display: none;
+    width: 1600px;
+    justify-content: space-between;
+}
+
+.first,
+.second,
+.third{
+    width: 300px;
+    background-color: rgba(54,201,253,255);
+    padding: 30px;
+    border-radius: 20px;
+    color:  rgba(8, 8, 32, 255);
+}
+
+.first h1,
+.second h1,
+.third h1{
+   font-size: 1.5rem;
+}
+
+
+.first button,
+.second button,
+.third button{
+   display: flex;
+   align-items: center;
+   background-color: rgba(8, 8, 32, 255);
+   color: white;
+   padding: 5px 15px;
+   border-radius: 15px;
+   outline: none;
+   border: none;
+   cursor: pointer;
+}
+
+.first img,
+.second img,
+.third img{
+    width: 300px;
+    border-radius: 20px;
+
+}
+
+
+
+@keyframes ring {
+    0% {
+        box-shadow: 0 0 0 0 rgba(54, 201, 253, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(54, 201, 253, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(54, 201, 253, 0);
+    }
+}
+
+/* Apply the ring animation when hovering over the button */
+.header button:hover,
+.first:hover,
+.second:hover,
+.third:hover {
+    cursor: pointer;
+    animation: ring 2s ease;
+}
+
+/* Apply the zoom effect on hover for the first, second, and third containers */
+.first:hover,
+.second:hover,
+.third:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease; /* Smooth transition for the zoom effect */
+}
+
+
+
+.hovers-one,
+.hovers-two{
+    display: flex;
+    gap: 160px;
+    font-size: 1.2rem;
+    font-weight: bold;
+ 
+}
+
+.hovers-one p,
+.hovers-two p{
+    border: 1px solid  rgba(8, 8, 32, 255);
+    padding: 10px 15px;
+    background-color:  rgba(8, 8, 32, 255);
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+.hovers-one p:hover,
+.hovers-two p:hover{
+   background-color: white;
+   color: rgba(8, 8, 32, 255);
+}
+
+.interested{
+    font-weight: bold;
+}
+
+
+img.view{
+    width: 30px;
+    height: 30px;
+}
+.about-me-inside{
+    width: 500px;
+    margin-left: 130px;
+}
+
+.about-me-inside p{
+font-size: 1.2rem;
+line-height: 2rem;
+
+
+
+}
+
+
+
+@font-face {
+    font-family: Systemia;
+    src: url("systemia/FONT/SYSTEMIA.woff");
+}
+ .left, .right{
+    flex: 1;
+}
+
+
+
+    
+.section-one {
+    background:  url("images/bolt.svg") /* Your background image */;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    /* Additional styling for background */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-position: center; /* Center the image */
+    background-size: 1100px; /* Cover the entire container */
+    margin-top: 120PX;
+    letter-spacing: 0.06rem;
+}
+
+.section-two {
+  
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: 1100px;
+   margin-top: 180px;
+   letter-spacing: 0.06rem;
+}
+  
+
+.projects{
+  
+    background-image: url("images/bolts.svg");
+    background-repeat: no-repeat;
+    background-position: top 150px center ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+
+    .about-me, .skills{
+        flex: 1;
+    }
+
+    .skills{
+        margin-top: 550px;
+        margin-left: 340px;
+        width: 400px;
+    }
+
+    .skills p{
+        font-size: 1.2rem;
+    }
+
+    .projects p{
+        font-size: 1.2rem;
+    }
+ 
+    .about-me{
+        margin-top: 80px;
+        
+    }
+    
+    .left{
+        display: flex;
+        flex-direction: column;
+        justify-content:center ;
+        align-items: center;
+        font-family: Astro;
+        color: white;
+    }
+    
+    
+
+    
+    
+    
+    .hello{
+        font-size: 2rem;
+          letter-spacing: 0.3rem;
+    
+    }
+    
+    .web{
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+    .build{
+        font-size: 2rem;
+        letter-spacing: 0rem;
+        margin-top: -30px;
+    }
+    
+
+
+    
+    .headings {
+       width: 600px;
+        justify-content: center;
+       padding: 30px 60px;
+        line-height: 4rem;
+        backdrop-filter: blur(10px); /* Adjust the blur strength as needed */
+        background-color: rgba(0, 0, 0, 0.3); /* Adjust the opacity as needed */
+       border-radius: 30px;
+        align-items: center;
+       
+    }
+    
+
+    @keyframes fadeFromBottom {
+        0% {
+            opacity: 0;
+            /*Pocetnata tocka na animacijata*/
+            transform: translateX(100%);
+        }
+        100% {
+            opacity: 1;
+            /*Zavrshnata tocka koga ke dojde na normalnata pozicija 100% e koga ke se vrakja kako sto sme go iskodirale */
+            transform: translateX(0);
+        }
+    }
+    
+    /* Apply the fadeFromBottom animation to the content inside the headings container */
+    .headings .content {
+        animation: fadeFromBottom 1s ease forwards; /* Added "forwards" to keep the final state */
+        animation-delay: 3s; /* Delay the animation by 4 seconds */
+    }
+    
+
+/* Apply the fadeFromBottom animation to the headings container */
+.headings {
+    width: 600px;
+    justify-content: center;
+    padding: 30px 60px;
+    line-height: 4rem;
+    backdrop-filter: blur(10px); /* Adjust the blur strength as needed */
+    background-color: rgba(0, 0, 0, 0.3); /* Initial background color with opacity */
+    border-radius: 30px;
+    align-items: center;
+    transition: background-color 1s ease; /* Smooth transition for background color */
+}
+
+/* Change the background color of the headings container on hover */
+.headings:hover {
+    background-color: rgba(54, 201, 253, 0.7); /* Change to desired color with opacity */
+    color:  rgba(8, 8, 32, 255);
+}
+
+.content{
+    width: 430px;
+}
+    
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    color: white;
+}
+
+img.arrow-next,
+img.arrow-back{
+    width: 80px;
+    cursor: pointer;
+}
+
+
+.header button{
+    display: flex;
+    align-items:center ;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background: linear-gradient(to right, white,  rgba(54, 201, 253, 0.7));
+    cursor: pointer;
+}
+
+
+/* Define keyframe animation called "ring" */
+@keyframes ring {
+    /* At 0% keyframe, start with no box-shadow */
+    0% {
+        box-shadow: 0 0 0 0 rgba(54, 201, 253, 0.7);
+    }
+    /* At 70% keyframe, increase box-shadow size */
+    70% {
+        box-shadow: 0 0 0 10px rgba(54, 201, 253, 0);
+    }
+    /* At 100% keyframe, return to no box-shadow */
+    100% {
+        box-shadow: 0 0 0 0 rgba(54, 201, 253, 0);
+    }
+}
+
+
+
+/* Define the initial color of the social media icons */
+.social-media-icons img {
+    filter: invert(0%);
+    transition: filter 0.3s ease; /* Add transition for smooth color change */
+}
+
+/* Define the color of the social media icons on hover */
+.social-media-icons img:hover {
+    filter: invert(100%);
+}
+
+/* Apply the ring animation when hovering over the button */
+.header button:hover {
+    animation: ring 1s ease;
+}
+
+
+
+.menu p{
+    cursor: pointer;
+}
+
+
+.menu .about,
+.menu .skills-heading,
+.menu .projects-heading {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.menu .about:hover::after,
+.menu .skills-heading:hover::after {
+    content: ""; /* Add content for the pseudo-element */
+    position: absolute;
+    left: -20px;
+    top:-15px;
+    bottom: 0;
+    width: 120px;
+    height: 120px; /* Adjust the height of the underline */
+    background-image: url("images/underline.svg"); /* Adjust the path to your underline SVG */
+    background-repeat: no-repeat;
+    background-position: center bottom; /* Adjust the position of the underline */
+    background-size: 100% 100%; /* Adjust the size of the underline */
+}
+
+.menu .projects-heading:hover::after {
+    content: ""; /* Add content for the pseudo-element */
+    position: absolute;
+    left: -10px;
+    top:-15px;
+    bottom: 0;
+    width: 120px;
+    height: 120px; /* Adjust the height of the underline */
+    background-image: url("images/underline.svg"); /* Adjust the path to your underline SVG */
+    background-repeat: no-repeat;
+    background-position: center bottom; /* Adjust the position of the underline */
+    background-size: 100% 100%; /* Adjust the size of the underline */
+}
+
+
+
+
+.buttons{
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+img.telegram{
+    width: 30px;
+}
+
+
+
+.right-inputs button{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    width: 370px;
+}
+.buttons button{
+    letter-spacing: 0.06rem;
+}
+
+img.hire-me-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.hire-me-btn{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background: linear-gradient(to right, white,  rgba(54, 201, 253, 0.7));
+    cursor: pointer;
+}
+
+
+
+.social-media-icons{
+    display: flex;
+    width: 100px;
+    margin-top: -30px;
+    margin-left: -30px;
+}
+
+
+
+.social-media-icons-footer{
+    cursor: pointer;
+}
+.social-media-icons img{
+    cursor: pointer;
+}
+
+.social-media-icons-footer{
+    display: flex;
+    width: 360px;
+    justify-content: center;
+  
+}
+
+.social-media-icons-footer img{
+    width: 100px;
+  
+}
+
+
+
+.hello{
+    font-size: 2rem;
+      letter-spacing: 0.3rem;
+
+}
+
+.web{
+    font-size: 4rem;
+    line-height: 6rem;
+}
+.build{
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+}
+
+.right img{
+    width: 800px;
+
+    position: relative;
+    left: 200px;
+    top:5px;
+   
+}
+
+.p-heading-paragraph{
+    display: flex;
+   text-align: center;
+   justify-content: space-between;
+   margin-bottom: 160px;
+  
+   width: 600px;
+}
+
+.logos{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+img.js,
+img.html{
+    width: 100px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 0px 15px;
+}
+
+img.css{
+    width: 130px;
+    background-color: white;
+    border-radius: 25px;
+
+}
+
+img.react{
+    width: 80px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 0px 20px;
+}
+
+
+.footer-desktop{
+    display: flex;
+    color:  rgba(8, 8, 32, 255);
+    background-color: rgba(54,201,253,255);
+    margin-top: 160px;
+}
+
+
+
+
+
+.left-contact h1{
+    margin-bottom: 80px;
+}
+
+.right-inputs{
+    display: grid;
+    
+    width: 400px;
+}
+
+form input{
+    width: 320px;
+}
+
+.two-containers{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: space-around;
+
+    
+}
+
+
+
+.right-inputs input{
+   margin-bottom: 20px;
+   padding: 10px;
+   height: 30px;
+   border-radius: 10px;
+   outline: none;
+   border: 1px solid gray;
+}
+
+textarea{
+    border-radius: 10px;
+   outline: none;
+   border: 1px solid gray;
+   margin-bottom: 20px;
+   padding: 10px;
+   width: 350px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.right-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*For the inputs */
+
+input.icon-profile{
+    
+    padding-left: 30px; /* Adjust this value according to your icon size */
+  
+    background-repeat: no-repeat;
+    background-position: 5px center; /* Adjust the position of the icon horizontally */
+    background-size: 40px 40px; /* Adjust the size of the icon */
+
+}
+
+input.name {
+    background-image: url("images/icon-profile\ is.svg");
+    padding-left: 40px;
+}
+
+
+
+input.icon-email{
+    padding-left: 30px; /* Adjust this value according to your icon size */
+   
+    background-repeat: no-repeat;
+    background-position: 5px center; /* Adjust the position of the icon horizontally */
+    background-size: 40px 40px; /* Adjust the size of the icon */
+}
+
+
+input.email{
+    background-image: url("images/icon-msg\ is.svg");
+    padding-left: 40px;
+}
+
+
+.mobile{
+    display: none;
+}
+
+.tablet{
+    display: none;
+}
+
+@media(max-width:480px){
+ 
+
+
+    body {
+        background: rgba(8, 8, 32, 255);
+        overflow-x: hidden;
+    }
+    .desktop{
+        display: none;
+    }
+   
+    .footer-desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+  
+    .header-mobile{
+        width: 420px;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0px;
+    }
+    
+    .header-mobile img{
+        width: 80px;
+    }
+   
+
+ 
+
+    .menu-mobile {
+        position: absolute;
+        left: 50%;
+        top: 90px;
+        background-color: rgba(8, 8, 32, 255);
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        width: 250px;
+        font-size: 1.2rem;
+        transform: translateX(-50%);
+        z-index: 1;
+        height: 380px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        display: none;
+    }
+    
+    .menu-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .menu-container p::before {
+        content: url('images/underline.svg');
+        width: 120px;
+        position: absolute; /* Changed to relative positioning */
+        right: -50px;
+        display: block; /* Added to ensure pseudo-element behaves as a block element */
+        margin: auto; /* Center the pseudo-element horizontally */
+        margin-bottom: 30px; /* Adjust vertical positioning */
+        padding: 30px;
+    }
+
+
+
+
+    .menu-mobile p {
+        position: relative;
+        display: flex;
+       
+        padding: 10px;
+    }
+    
+
+    
+      
+      
+
+    .headings-mobile {
+        
+        color: white;
+         justify-content: center;
+         text-align: center;
+        padding: 30px 60px;
+         line-height: 4rem;
+        
+        border-radius: 30px;
+         align-items: center;
+         font-size: 0.6rem;
+        
+     }
+
+     .banner-mobile{
+        display: flex;
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+       
+       
+     }
+
+     .just-img {
+        width: 400px;
+        background-image: url("hex-backgrounds-networking.jpg");
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        height: 390px;
+        background-size: cover;
+     }
+
+
+
+     .just-img img{
+        width: 390px;
+        position: relative;
+        left: 10px;
+       
+      
+     }
+
+     .skills-mobile{
+        
+        width: 400px;
+    }
+    .logos-mobile{
+        width: 400px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    
+    
+    
+    img.js,
+    img.html{
+        width: 60px;
+        background-color: white;
+        border-radius: 15px;
+        padding: 10px 5px;
+    }
+    
+    img.css{
+        width: 72px;
+        background-color: white;
+        border-radius: 15px;
+        padding: 2px 0px;
+    }
+    
+    img.react{
+        width: 40px;
+        background-color: white;
+        border-radius: 15px;
+        padding: 20px 15px;
+    }
+    
+      .section-one-mobile{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+   
+     
+      }
+
+
+.skills-mobile{
+    color: white;
+    text-align: center;
+}
+
+   .about-me-mobile{
+    color: white;
+    width: 330px;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1rem;
+   }
+   
+
+   .second-mobile,
+   .third-mobile,
+   .fourth-mobile,
+   .fifth-mobile,
+   .sixth-mobile{
+    display: none ;
+   }
+   
+   .first-mobile h1,
+   .second-mobile h1,
+   .third-mobile h1,
+   .fourth-mobile h1,
+   .fifth-mobile h1,
+   .sixth-mobile h1{
+  font-size: 1.5rem;
+   }
+ 
+.section-two-mobile{
+   
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+   .projects-mobile{
+    color: white;
+    display: grid;
+    text-align: center;
+    width: 400px;
+   }
+      
+  
+         .hello{
+            font-size: 2rem;
+              letter-spacing: 0.3rem;
+        
+        }
+        
+        .web{
+            font-size: 3rem;
+            line-height: 5rem;
+        }
+        .build{
+            font-size: 1.8rem;
+            letter-spacing: 0rem;
+            margin-top: -30px;
+        }
+
+        .hello,
+        .web,
+        .build{
+            animation: flickerAnimation 4s infinite
+        }
+        
+  
+        .first-mobile,
+        .second-mobile,
+        .third-mobile,
+        .fourth-mobile,
+        .fifth-mobile,
+        .sixth-mobile{
+            width: 300px;
+            background-color: rgba(54,201,253,255);
+            padding: 15px;
+            border-radius: 20px;
+            color:  rgba(8, 8, 32, 255);
+        }
+
+        .first-mobile img,
+        .second-mobile img,
+        .third-mobile img,
+        .fourth-mobile img,
+        .fifth-mobile img,
+        .sixth-mobile img{
+            width: 300px;
+            border-radius: 20px;
+        
+        }
+
+        .buttons{
+            width: 300px;
+            display: flex;
+            justify-content: space-around;
+         
+        }
+
+        .buttons button{
+            display: flex;
+             padding: 10px;
+            justify-content:center ;
+            align-items:center ;
+            width: 130px;
+            background-color: rgba(8, 8, 32, 255);
+            color: white;
+          
+            border-radius: 10px;
+            outline: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        img.view{
+            width: 20px;
+            height: 20px;
+        }
+
+        .project-containers-mobile{
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+
+        .p-heading-paragraph-mobile{
+            display: flex;
+           text-align: center;
+           justify-content: space-around;
+           margin-bottom: 60px;
+          
+          
+        }
+
+        img.arrow-next,
+        img.arrow-back{
+    width: 50px;
+    cursor: pointer;
+}
+
+.footer-mobile{
+    display: flex;
+    flex-direction: column;
+    color:  rgba(8, 8, 32, 255);
+    background-color: rgba(54,201,253,255);
+    margin-top: 160px;
+   
+   
+}
+
+.two-containers-mobile{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hovers-one,
+.hovers-two{
+    display: flex;
+    gap: 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+ 
+}
+
+.hovers-one p,
+.hovers-two p{
+    border: 1px solid  rgba(8, 8, 32, 255);
+    padding: 10px 10px;
+    background-color:  rgba(8, 8, 32, 255);
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 0.9rem;
+}
+
+
+.left-contact {
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 5px;
+}
+
+.right-inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input{
+    width: 320px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.web{
+    margin-top: -20px;
+}
+
+
+.left-contact h1{
+    margin-bottom: 30px;
+}
+
+
+
+/* Define keyframe animation called "ring" */
+@keyframes ring {
+    /* At 0% keyframe, start with no box-shadow */
+    0% {
+        box-shadow: 0 0 0 0 rgba(54, 201, 253, 0.7);
+    }
+    /* At 70% keyframe, increase box-shadow size */
+    70% {
+        box-shadow: 0 0 0 10px rgba(54, 201, 253, 0);
+    }
+    /* At 100% keyframe, return to no box-shadow */
+    100% {
+        box-shadow: 0 0 0 0 rgba(54, 201, 253, 0);
+    }
+}
+
+.hire-me-btn{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background: linear-gradient(to right, white,  rgba(54, 201, 253, 0.7));
+    cursor: pointer;
+}
+
+
+.tablet{
+    display: none;
+
+}
+
+
+}
+
+@media (min-width: 481px) and (max-width: 1024px){
+
+.desktop{
+    display: none;
+}
+
+.tablet{
+    display: block;
+}
+
+.header{
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    background-color: rgba(8,8,32,255);
+   padding: 20px 0px;
+    height: 80px;
+    padding-right: 40px;
+    padding-left: 20px;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+
+
+.banner-containers{
+    display: flex;
+    width: 700px;
+    justify-content: center;
+}
+
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    color: white;
+}
+
+.banner{
+  
+    background-image: url("hex-backgrounds-networking.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content:center ;
+    width: 100%;
+  
+  }
+
+  .hello{
+    font-size: 1rem;
+      letter-spacing: 0.3rem;
+
+}
+
+.web{
+    font-size: 2.5rem;
+    line-height: 4rem;
+}
+.build{
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+}
+
+.right img{
+    width: 460px;
+
+    position: relative;
+    left: 60px;
+    top:5px;
+   
+}
+
+.content{
+    width: 350px;
+}
+
+
+.headings {
+    width: 400px;
+     justify-content: center;
+    padding: 10px 30px;
+   
+     line-height: 4rem;
+     backdrop-filter: blur(10px); /* Adjust the blur strength as needed */
+     background-color: rgba(0, 0, 0, 0.3); /* Adjust the opacity as needed */
+    border-radius: 30px;
+     align-items: center;
+    
+ }
+
+ .first-block-projects{
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+}
+
+
+.second-block-projects{
+    display: none;
+    width: 900px;
+    justify-content: space-between;
+}
+
+.first,
+.second,
+.third{
+    width: 220px;
+    background-color: rgba(54,201,253,255);
+    padding: 30px;
+    border-radius: 20px;
+    color:  rgba(8, 8, 32, 255);
+}
+
+.first img,
+.second img,
+.third img{
+    width: 220px;
+    border-radius: 20px;
+
+}
+
+
+.buttons{
+    width: 220px;
+    display: flex;
+    justify-content: space-around;
+ 
+}
+
+.buttons button{
+    display: flex;
+ 
+    justify-content:center ;
+    align-items:center ;
+    width: 100px;
+    padding: 10px;
+    background-color: rgba(8, 8, 32, 255);
+    color: white;
+    
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+img.view{
+    width: 20px;
+    height: 20px;
+    display:flex ;
+    flex-direction: column;
+}
+
+.two-containers{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: space-around;
+
+    
+}
+
+.left-contact{
+    width: 450px;
+}
+.hovers-one,
+.hovers-two{
+    display: flex;
+    gap: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+ 
+}
+
+
+.hire-me-btn{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background: linear-gradient(to right, white,  rgba(54, 201, 253, 0.7));
+    cursor: pointer;
+}
+
+
+.projects-tablet{
+  
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+}

@@ -1,0 +1,157 @@
+body {
+    background-image: url('hex-backgrounds-networking.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    cursor: url('1-cursor/cursor_page_01.png'), auto;
+    color: white;
+   
+}
+
+
+
+
+
+@font-face {
+    font-family: 'Systemia';
+    src: url('systemia/FONT/SYSTEMIA.woff') format('truetype');
+}
+.story{
+    font-family: Systemia;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.wrapper{
+    width: 680px;
+ 
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.form{
+    font-family: "Roboto Mono", monospace;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    backdrop-filter: blur(10px); /* Add the blur effect */
+    background-color: rgba(0, 0, 0, 0.4); /* Adjust opacity and color */
+    padding: 50px 50px;
+   cursor: auto;
+   border-radius: 20px;
+   width: 400px;
+   display: flex;
+   justify-content: center;
+
+ 
+
+}
+
+.name,
+.email,
+.message{
+    border: 1px solid #2561a5;
+    padding: 10px 15px;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 2px #2561a5;
+   
+    font-size: 1.1rem;
+}
+.btn-form{
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph{
+    
+    font-family: "Roboto Mono", monospace;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    backdrop-filter: blur(10px); /* Add the blur effect */
+    background-color: rgba(0, 0, 0, 0.4); /* Adjust opacity and color */
+    padding: 20px 40px;
+   cursor: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn{
+    padding: 15px 30px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(4, 16, 49);
+    outline: none;
+    letter-spacing: 0.1rem;
+    border: 1px solid #2561a5;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.heading-paragraph{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: url('1-cursor/cursor_page_01.png'), auto;
+}
+
+
+.image {
+    width: 200px;
+    height: 200px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    background-color: #2561a5;;
+    border-radius: 60%;
+    box-shadow: 0 0 20px 10px #2561a5;
+    border: 5px solid transparent; 
+    cursor: url('1-cursor/cursor_page_01.png'), auto;
+}
+
+
+
+input.for-icon {
+    padding-left: 30px; /* For the icon */
+   
+    background-repeat: no-repeat;
+    background-position: 5px center; 
+    background-size: 40px 40px; 
+}
+
+input.name {
+    background-image: url('images/icon-profile\ is.svg'); /* The name input itself */
+    padding: 15px 40px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    border: 1px solid  #2561a5;
+    outline: none;
+  
+    
+}
+
+input.email {
+    background-image: url('images/icon-msg\ is.svg'); /* the email input itself */
+    padding: 15px 40px;
+    border-radius: 25px;
+    border: 1px solid  #2561a5;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+
+.message{
+    width: 270px;
+}
