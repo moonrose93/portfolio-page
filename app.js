@@ -23,6 +23,13 @@ document.getElementById("hire-me-btn-tablet").addEventListener("click", function
     window.open(gmailUrl, '_blank');
 });
 
+document.getElementById("hire-me-btn-tablet-two").addEventListener("click", function() {
+   
+    var gmailUrl = "https://mail.google.com/mail/?view=cm&fs=1&to=isidora.s.dev@gmail.com&su=Hiring%20Inquiry";
+    
+    window.open(gmailUrl, '_blank');
+});
+
 
 const linkedin = document.getElementById("linkedin");
 
@@ -254,10 +261,37 @@ arrowNextTablet.addEventListener("click",()=>{
     }
 });
 
+
 arrowBackTablet.addEventListener("click",()=>{
     if( firstBlockProjectsTablet.style.display = "none");
     firstBlockProjectsTablet.style.display = "flex";
     secondBlockProjectsTablet.style.display = "none";
+});
+
+
+//Change of the projects  tablet-two:
+
+const arrowBackTabletTwo = document.getElementById("arrow-back-tablet-two");
+
+const arrowNextTabletTwo = document.getElementById("arrow-next-tablet-two");
+
+
+const firstBlockProjectsTabletTwo = document.getElementById("first-block-projects-tablet-two");
+
+const secondBlockProjectsTabletTwo = document.getElementById("second-block-projects-tablet-two");
+
+
+arrowNextTabletTwo.addEventListener("click",()=>{
+    if(secondBlockProjectsTabletTwo.style.display = "none"){
+        secondBlockProjectsTabletTwo.style.display = "flex";
+        firstBlockProjectsTabletTwo.style.display = "none";
+    }
+});
+
+arrowBackTabletTwo.addEventListener("click",()=>{
+    if( firstBlockProjectsTabletTwo.style.display = "none");
+    firstBlockProjectsTabletTwo.style.display = "flex";
+    secondBlockProjectsTabletTwo.style.display = "none";
 });
 
 //Social media mobile:|
@@ -328,6 +362,44 @@ contactLinkTablet.addEventListener("click",()=>{
 });
 
 
+//Scroll to view-tablet-two:
+
+const aboutLinkTabletTwo = document.getElementById("about-tablet-two");
+
+const aboutContainerTabletTwo = document.getElementById("about-me-tablet-two");
+
+aboutLinkTabletTwo.addEventListener("click", ()=>{
+    aboutContainerTabletTwo.scrollIntoView({behavior:"smooth"})
+});
+
+
+
+const skillsLinkTabletTwo = document.getElementById("skills-tablet-two");
+
+const skillsBlockTabletTwo = document.getElementById("skills-block-tablet-two");
+
+skillsLinkTabletTwo.addEventListener("click",()=>{
+    skillsBlockTabletTwo.scrollIntoView({behavior:"smooth"})
+});
+
+const projectsLinkTabletTwo = document.getElementById("projects-tablet-two");
+
+const projectsBlockTabletTwo = document.getElementById("projects-block-tablet-two");
+
+projectsLinkTabletTwo.addEventListener("click", ()=>{
+    projectsBlockTabletTwo.scrollIntoView({behavior:"smooth"})
+});
+
+
+const contactLinkTabletTwo = document.getElementById("contact-tablet-two");
+
+const contactBlockTabletTwo = document.getElementById("contact-block-tablet-two");
+
+contactLinkTabletTwo.addEventListener("click",()=>{
+    contactBlockTabletTwo.scrollIntoView({behavior:"smooth"});
+});
+
+
 
 //Socials tablet:
 
@@ -352,6 +424,28 @@ discordTablet.addEventListener("click",()=>{
 });
 
 
+//Tablet-two
+
+const linkedinTabletTwo = document.getElementById("linkedin-tablet-two");
+
+linkedinTabletTwo.addEventListener("click",()=>{
+    window.open("https://www.linkedin.com/in/isidora-stanisavljevska/");
+});
+
+
+const XTabletTwo = document.getElementById("X-tablet-two");
+
+XTabletTwo.addEventListener("click",()=>{
+    window.open("https://twitter.com/Isidora_993");
+});
+
+const discordTabletTwo = document.getElementById("discord-tablet-two");
+
+discordTabletTwo.addEventListener("click",()=>{
+    window.open("https://discord.gg/U4Aj7Tc9Rj");
+});
+
+
 //for the footer:
 
 const linkedinFooterTablet = document.getElementById("linkedin-footer-tablet");
@@ -370,6 +464,28 @@ XFooterTablet.addEventListener("click",()=>{
 const discordFooterTablet = document.getElementById("discord-footer-tablet");
 
 discordFooterTablet.addEventListener("click",()=>{
+    window.open("https://discord.gg/U4Aj7Tc9Rj");
+});
+
+
+//for the footer:
+
+const linkedinFooterTabletTwo = document.getElementById("linkedin-footer-tablet-two");
+
+linkedinFooterTabletTwo.addEventListener("click",()=>{
+    window.open("https://www.linkedin.com/in/isidora-stanisavljevska/");
+});
+
+
+const XFooterTabletTwo = document.getElementById("X-footer-tablet-two");
+
+XFooterTabletTwo.addEventListener("click",()=>{
+    window.open("https://twitter.com/Isidora_993");
+});
+
+const discordFooterTabletTwo = document.getElementById("discord-footer-tablet-two");
+
+discordFooterTabletTwo.addEventListener("click",()=>{
     window.open("https://discord.gg/U4Aj7Tc9Rj");
 });
 
@@ -537,6 +653,90 @@ sixthProjectCodeTabletBtn.addEventListener("click",()=>{
 });
 
 sixthProjectPageTabletBtn.addEventListener("click",()=>{
+    window.open("https://funny-brigadeiros-ed6c53.netlify.app/");
+});
+
+
+//Linked Projects Tablet-Two:
+
+
+const firstProjectCodeTabletBtnTwo = document.getElementById("first-project-code-tablet-two");
+
+const firstProjectPageTabletBtnTwo = document.getElementById("first-project-page-tablet-two");
+
+
+
+
+firstProjectCodeTabletBtnTwo.addEventListener("click",()=>{
+    window.open("https://github.com/moonrose93/Sunnyside-agency-landing-page.git");
+});
+
+firstProjectPageTabletBtnTwo.addEventListener("click",()=>{
+    window.open("https://stupendous-gnome-6a9313.netlify.app/");
+});
+
+
+const secondProjectCodeTabletBtnTwo = document.getElementById("second-project-code-tablet-two");
+
+const secondProjectPageTabletBtnTwo = document.getElementById("second-project-page-tablet-two");
+
+secondProjectCodeTabletBtnTwo.addEventListener("click",()=>{
+    window.open("https://github.com/moonrose93/moonrose93-the-creator-landing-page.git");
+});
+
+secondProjectPageTabletBtnTwo.addEventListener("click",()=>{
+    window.open("https://frolicking-boba-63177b.netlify.app/");
+});
+
+
+const thirdProjectCodeTabletBtnTwo = document.getElementById("third-project-code-tablet-two");
+
+const thirdProjectPageTabletBtnTwo = document.getElementById("third-project-page-tablet-two");
+
+thirdProjectCodeTabletBtnTwo.addEventListener("click",()=>{
+    window.open("https://github.com/moonrose93/FAQ-accordion-built-with-React.git");
+});
+
+thirdProjectPageTabletBtnTwo.addEventListener("click",()=>{
+    window.open("https://snazzy-palmier-0c89af.netlify.app/");
+});
+
+
+const fourthProjectCodeTabletBtnTwo = document.getElementById("fourth-project-code-tablet-two");
+
+const fourthProjectPageTabletBtnTwo = document.getElementById("fourth-project-page-tablet-two");
+
+fourthProjectCodeTabletBtnTwo.addEventListener("click",()=>{
+    window.open("https://github.com/moonrose93/Interactive-rating-component-React.js.git");
+});
+
+fourthProjectPageTabletBtnTwo.addEventListener("click",()=>{
+    window.open("https://sunny-gingersnap-fc6343.netlify.app/");
+});
+
+
+const fifthProjectCodeTabletBtnTwo = document.getElementById("fifth-project-code-tablet-two");
+
+const fifthProjectPageTabletBtnTwo = document.getElementById("fifth-project-page-tablet-two");
+
+fifthProjectCodeTabletBtnTwo.addEventListener("click",()=>{
+    window.open("https://github.com/moonrose93/movie-app-react.git");
+});
+
+fifthProjectPageTabletBtnTwo.addEventListener("click",()=>{
+    window.open("https://sage-flan-4c8d1d.netlify.app/");
+});
+
+
+const sixthProjectCodeTabletBtnTwo = document.getElementById("sixth-project-code-tablet-two");
+
+const sixthProjectPageTabletBtnTwo = document.getElementById("sixth-project-page-tablet-two");
+
+sixthProjectCodeTabletBtnTwo.addEventListener("click",()=>{
+    window.open("https://github.com/moonrose93/advice-generator-app-main.git");
+});
+
+sixthProjectPageTabletBtnTwo.addEventListener("click",()=>{
     window.open("https://funny-brigadeiros-ed6c53.netlify.app/");
 });
 
