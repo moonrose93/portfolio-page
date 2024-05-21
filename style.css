@@ -1210,7 +1210,7 @@ form{
 
 .banner-containers{
     display: flex;
-    width: 1600px;
+   
     justify-content: center;
 }
 
@@ -1247,6 +1247,8 @@ form{
       aspect-ratio:3/2;
     object-fit: contain;
       width:990px;
+      position: relative;
+      left:220px;
       
       min-width:400px;
     
