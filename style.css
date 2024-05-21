@@ -1230,6 +1230,7 @@ form{
     background-position: top center;
     display: flex;
     height: 72vh;
+    max-height: 100vh;
     justify-content:center ;
     
     width: 100%;
