@@ -1246,7 +1246,8 @@ form{
   .right img{
       aspect-ratio:3/2;
     object-fit: contain;
-      width:1290px;
+      width:890px;
+      
       min-width:400px;
     
   }
