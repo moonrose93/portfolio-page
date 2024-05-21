@@ -1243,6 +1243,7 @@ form{
 
   .right img{
     object-fit: contain;
+      width: 680px;
   }
 
   .hello{
