@@ -1480,7 +1480,7 @@ img.view{
         margin-top: 550px;
         margin-left: 340px;
         width: 100%;
-       
+        max-width:400px
        min-width: 600px;
     }
 
