@@ -1204,13 +1204,15 @@ form{
 
 
 .skills-d{
-    margin-top: 550px;
-    margin-left: 840px;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 750px;
+    margin-left: 240px;
 }
 
 .banner-containers{
     display: flex;
-   
+   width: 
     justify-content: center;
 }
 
@@ -1222,6 +1224,13 @@ form{
     color: white;
 }
 
+
+.logos{
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
 .banner{
   
     background-image: url("hex-backgrounds-networking.jpg");
@@ -1239,9 +1248,11 @@ form{
   
   }
 
-  .left,.right{
-    flex: 1;
-  }
+  .section-one-containers{
+    width: 100%;
+    display: flex;
+}
+
 
   .right img{
       aspect-ratio:3/2;
@@ -1253,6 +1264,9 @@ form{
       min-width:400px;
     
   }
+
+
+  
 
   .hello{
     font-size: 1rem;
@@ -1278,6 +1292,7 @@ form{
 
 .section-one-containers{
     width: 100%;
+    display: flex;
 }
 
 
