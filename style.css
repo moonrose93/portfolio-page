@@ -685,6 +685,8 @@ input.icon-profile{
 
 }
 
+/*background-position: 5px center; line positions the background image horizontally 5 pixels from the left edge of the input and centers it vertically*/
+
 input.name {
     background-image: url("images/icon-profile\ is.svg");
     padding-left: 40px;
